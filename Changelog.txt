@@ -1,0 +1,150 @@
+31/08/2018 - Version 1.8.4
+- New added: Logo preload, you can setup in GoCargo Options -> Preload Settings
+- New added: Included royal-preloader.css, royal_preloader.min.js in theme folder.
+- Fixed: Bugs Overlapped services on IE and on mobile in "Services Grid 2" element.
+- Updated: OT Visual Composer Version 1.4.5
+- Updated: Documentation
+- Files edited: functions.php, header.php, sample-config.php, template-tags.php, plugin-requires.php, color.php, style.css
+
+27/07/2018 - Version 1.8.3
+- Updated: WPBakery Visual Composer Version 5.5.2
+- Updated: Slider Revolution Version 5.4.8
+- Updated: OT Visual Composer Version 1.4.4
+- New added: Option for archive service page: title, read more text, post per page
+- Files edited: archive-service.php, sample-config.php, plugin-requires.php, exotheme.js, style.css
+
+30/05/2018 - Version 1.8.1
+- Updated: Slider Revolution Version 5.4.7.4
+- Improved: Improving the menu color on mobile
+- Changed: Change the link url Font-Awesome icons to https://fontawesome.com/v4.7.0/
+- Files edited: color.php, plugin-requires.php, meta-boxes.php, contact-info.php, style.css
+
+14/03/2018 - Version 1.8.0
+- Updated: WPBakery Visual Composer Version 5.4.7
+- Updated: Slider Revolution Version 5.4.7.1
+- Fixed: Bug in 404 page
+- Files edited: plugin-requires.php, 404.php, style.css
+
+13/12/2017 - Version 1.7.6.2
+- Updated: WPBakery Visual Composer Version 5.4.5
+- Updated: Slider Revolution Version 5.4.6.3.1
+- Updated: theme compatible with WordPress 4.9.x
+- Files edited: plugin-requires.php, style.css
+
+30/10/2017 - Version 1.7.6
+- Updated: WPBakery Visual Composer Version 5.4.2
+- Improved: Sub Menu 3rd on mobile devices.
+- Files edited: color.php, plugin-requires.php, style.css
+
+12/10/2017 - Version 1.7.5
+- Updated: theme compatible with WordPress 4.8.x
+- Updated: WPBakery Visual Composer Version 5.3
+- Updated: Slider Revolution Version 5.4.6.1
+- Updated: OT Visual Composer plugin version 1.4.2
+- New added: Options blog layout in GoCargo Options -> Blog Settings
+- New added: Spacing option, styling for footer in GoCargo Options -> Footer Settings
+- New added: Show career post by category in OT Career Post, OT Career Post 2 elements
+- Improved: Explain each of the optional features in the GoCargo Options page.
+- Files edit: color.php, sample-config.php, index.php, search.php, archive.php, footer.php, style.css
+
+24/07/2017 - Version 1.7.0
+- New added: GoCargo Express One Page version
+- New added: Customize "Sub-Header Top Page" in GoCargo Options -> Sub-Header Top Page
+- New added: Customize "Header Homepage" in GoCargo Options -> Header Settings -> Header Homepage
+- Updated: OT Visual Composer 1.4.0
+- Updated: OT One Click Import Demo 1.3.0
+- Updated: New demo content files in folder data_export/
+- Improved: OT Home Parallax, add unlimited text in field: Add your text slider(multiple field)
+- Files edit: functions.php, color.php, sample-config.php, template-tags.php, exotheme.js, style.css
+
+12/07/2017 - Version 1.6.4
+- Updated: theme compatible with WordPress 4.8
+- Updated: WPBakery Visual Composer Version: 5.2
+- Updated: Slider Revolution Version: 5.4.5.1
+- Updated: OT Visual Composer 1.3.1
+- Files edit: style.css, class-tgm-plugin-activation.php
+
+10/04/2017 - Version 1.6.3
+- Updated: WPBakery Visual Composer Version: 5.1.1
+- Updated: OT Visual Composer 1.3
+- New added: Show Testimonial by category in OT Testimonial Slider, OT Testimonial Slider 2, OT Testimonial Grid elements
+- Files edit: functions.php, testimonials-widget.php, color.php, exotheme.js, style.css
+
+13/03/2017 – Version 1.6.2
+- Updated: WPBakery Visual Composer Version: 5.1
+- Updated: Slider Revolution Version: 5.4.1
+- New added: easy to add your google map API key in GoCargo Options -> Miscellaneous Settings -> Google Map API Key
+- Files edit: style.css, sample-config.php, functions.php
+
+21/02/2017 – Version 1.6.1
+- Updated: theme compatible with WordPress 4.7.x
+- Updated: WPBakery Visual Composer Version: 5.0.1
+- Updated: Slider Revolution Version: 5.3.1.5
+- Files edit: style.css, sample-config.php
+
+18/11/2016 – Version 1.6.0
+- Updated: WPBakery Visual Composer Version: 5.0
+- Updated: Slider Revolution Version: 5.3.0.2
+- Updated: FontAwesome Version 4.7.0
+- Updated: Meta Box Group Version: 1.1.6
+- Updated: GoCargo Shipment plugin, OT Visual Composer plugin, One-Click-Import-Demo plugin
+- Removed: twitter widget, instagram widget files
+- New added: homepages version 4 (merry christmas) on GOCARGO ORIGINAL Version.
+- New added: options header layout with two different header layout, more options color for header and menu, on/off social or search box on header.
+- New added: top bar header and you can easy add your phone number, email address, working hours, social network, etc...
+- New added: header-2.php, cbpAnimatedHeader.min.js, classie.js, let-it-snow.min.js, let-it-snow.css
+- Files edit: functions.php, style.css, vc_row.php, color.php, plugin-requires.php, sample-config.php, header.php, exotheme.js, rev-settings.css
+
+27/09/2016 – Version 1.5.2
+- Update theme compatible with WordPress 4.6.1
+- Update Visual Composer Version 4.12.1
+- Update Meta Box Group Version 1.1.5
+- Files edit : style.css
+
+16/08/2016 – Version 1.5.1
+- Updated : ot-themes-one-click-import plugin, gocargo-shipment plugin.
+- Remove folder "plugins" in gocargo/framework/
+- Install all plugins from source online now.
+- Fixed some bugs and improve theme.
+- Files edit : plugin-requires.php, style.css
+
+20/07/2016 – Version 1.5
+- Update Revolution Slider Version 5.2.6
+- Update Meta Box Group Version 1.1.3
+- Fixed Google map
+- Improve logo on desktop and mobile.
+- Files edit : functions.php, style.css, etc...
+
+09/06/2016 – Version 1.4
+- Update Revolution Slider Version 5.2.5.3 StarPath (1st June 2016)
+- Update Visual Composer Version 4.12 StarPath (8th June 2016)
+- Update Meta Box Group Version 1.1.2
+- Meta Box Tabs Version 1.0.0
+- Update OT Visual Composer Version 1.2
+- Update OT One Click Import Demo
+- Update Font-Awesome icon Version 4.6.3
+- Update TGM-Plugin-Activation Version 2.6.1
+- New added demo 3 (3 diffirent homepages and many other pages) - check on our demo now.
+- Update demo content in data_export and plugin one-click-import-demo.
+- Files edit : style.css, functions.php, sample-config.php, color.php, exotheme.js, etc...
+- New added files : preview3.css, template-blog-2.php 
+
+23/05/2016 – Version 1.2.1
+- Update plugin ot_composer.zip, you can chooise category in elements OT Services Grid, OT Services Grid 2, OT Services Grid 3 and show service by category. 
+- Update translation ot_composer
+- Update demo content in data_export and plugin one-click-import-demo.
+- Files edit : style.css
+
+02/05/2016 – Version 1.2
+- New added plugins : gocargo-shipment, meta-box-group,meta-box-tabs
+- Update demo content file and plugin one click import demo content
+- Files edit : style.css
+
+21/04/2016 – Version 1.1.0
+- Update Font-Awesome icon 4.6.1
+- Update documentation guide
+- Fixed bugs in some files
+- Update translate files .PO & .MO
+
+20/04/2016 – Version 1.0.0
+      * First release!

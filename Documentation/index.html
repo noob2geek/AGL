@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Gocargo - Documentation</title>
+	<style type="text/css" media="screen">
+		#toc {
+			position: fixed;
+			left: 0;
+			top: 0;
+			bottom: 0;
+			width: 300px;
+			padding: 30px 15px;
+			overflow: auto;
+			background: #333;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		#toc ul {
+			margin: 0;
+			padding: 0;
+			list-style-type: none;
+		}
+
+		#toc li {
+			line-height: 1.7;
+		}
+
+		.toc-h1 {
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+
+		.toc-h1 a {
+			color: #fff;
+		}
+
+		.toc-h2 {
+			font-size: 13px;
+			padding-left: 15px;
+		}
+
+		.toc-h3 {
+			font-size: 13px;
+			padding-left: 30px;
+		}
+
+		.toc-active {
+			font-style: italic;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+
+		#content {
+			width: 100%;
+			padding: 0 0 0 330px;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+		.navbar {
+			display: none;
+		}
+
+		#content h1,
+		#content h2,
+		#content h3 {
+			margin: 30px 0;
+		}
+
+		@media (max-width: 768px) {
+			#toc {
+				display: none;
+			}
+			#content {
+				padding: 0 30px;
+			}
+		}
+	</style>
+</head>
+<body>
+
+<xmp theme="simplex" style="display:none;">
+
+![GoCargo - Freight, Logistics & Transportation WordPress Theme](images/preview.jpg)
+
+Introduction
+==========
+
+We would like to thank you for purchasing Gocargo! We are very pleased that you have chosen Gocargo for your website, you will not be disappointed! Before you get started, please be sure to always search our Documentation. We outline all kinds of good information, and provide you with all the details you need to use Gocargo. The theme can only be used with WordPress and we assume that you already have WordPress installed and ready to go. If you do not, please go to wordpress.org to download and install the latest version of Wordpress.
+
+
+-----------------------------
+
+We provide support for customers via our support system : [https://oceanthemes.ticksy.com/](https://oceanthemes.ticksy.com/)
+===========================
+
+Read more "Frequently Asked Questions" link below.
+
+--------------------------------------------------
+
+- [How to submit a ticket](https://oceanthemes.ticksy.com/article/6692/)
+- [Support Policy](https://oceanthemes.ticksy.com/article/6358/)
+- [Plugins Licenses](https://oceanthemes.ticksy.com/article/6350/)
+- [How to Upload WordPress Theme](https://oceanthemes.ticksy.com/article/6441/)
+- [How to Update Plugin](https://oceanthemes.ticksy.com/article/6352/)
+- [How to update theme](https://oceanthemes.ticksy.com/article/6351/)
+- [I can't install theme - Stylesheet is missing](https://oceanthemes.ticksy.com/article/6348/)
+- [What To Do If Demo Content Import Fails](https://oceanthemes.ticksy.com/article/6349/)
+- [How to order post type and order category](https://oceanthemes.ticksy.com/article/7076/)
+- [How to Setup Visual Composer for custom post type: portfolio, post, page, etc...](https://www.youtube.com/watch?v=IuNksPhAibk)
+- [How to translate file .PO & .MO to your language](https://www.youtube.com/watch?v=AQKKMVIPs9Y)
+
+
+Files included in package
+=========================
+
+The download package (.zip) that you get from ThemeForest contains the following files and folder:
+
+- `gocargo.zip`: main theme file that need to be uploaded to host to install gocargo theme.
+- `gocargo-child.zip`: basic child theme of gocargo theme. It is created for people who want to customize code of gocargo theme.
+- `data_export/version1/demo-content.xml`: this file contains all sample content which will help you to have a first look of how we use gocargo theme.
+- `data_export/version1/theme-options.txt`: theme option backup file. You'll need this to restore the default theme options that setup for demo website.
+- `data_export/version1/contact-form.html`: copy and paste content demo to contact form7.
+- `data_export/version1/gocargo-widgets.wie`: widget demo content file, [import demo content](https://wordpress.org/plugins/widget-importer-exporter/)
+- `data_export/version1/revolution_slider_demo/home-slider.zip & home2.zip`: Revolution Slider demo content, [see Revolution Slider documentation guide](http://revolution.themepunch.com/documentation/#start)
+- `Documentation`: documetation folder that contains documentation files.
+- `Plugins`: this folder contains plugins that gocargo theme recommends.
+	- `js_composer.zip`: plugin file for WPBakery Visual Composer.
+	- `revolution.zip`: plugin file for Revolution Slider.
+	- `ot_composer.zip`: plugin file for OT Visual Composer.
+	- `ot_service.zip`: plugin file for OT Services.
+	- `ot_testimonial.zip`: plugin file for OT Testimonials.
+	- `ot_career.zip`: plugin file for OT Career.	
+	- `ot_founder.zip`: plugin file for OT Founder.
+	- `ot_history.zip`: plugin file for OT History.
+	- `ot-themes-one-click-import.zip`: plugin file for OT One Click Import Demo Content.
+
+------------------------------
+
+Installation
+=========
+
+- Do you want  custom theme, Starting At Only $50 contact us now <a href ="#">**contact@oceanthemes.net**</a>
+
+
+
+Install theme
+-------------
+
+After you download the package from ThemeForest, unzip it. You'll see a file `gocargo.zip`, which is the main file that needed to upload and install.
+
+You can either choose to upload and installl the theme using **WordPress theme install** or use **FTP** function.
+
+**Install theme using WordPress install function**
+
+- Go to `Appearance > Themes` and click **Add New**
+- Select **Upload**
+- Click **Browse** and select the `gocargo.zip` file
+- Click **Install Now**
+- When upload and installation progresses are completed, click **Activate**, or go to `Appearance > Themes` and activate **gocargo** theme
+
+**Upload and install using FTP**
+
+If you get any fail when install theme by Wordpress install function, we recommend to use FTP:
+
+- Unzip `gocargo.zip`, you'll get a folder `gocargo`
+- Use a FTP client like [FileZilla](http://filezilla-project.org/) and upload that folder to `wp-content/themes` folder on your host
+- Set the `Transfer Type` to `Binary` by expanding `Transfers > File Types`								
+![setup ftp](images/setup-ftp.png)
+- Go to `Appearance > Themes` and activate **gocargo** theme
+
+
+Install plugins
+----------------
+
+After installing gocargo, you'll see a notification in the top of the page that says the theme needs some plugins to function properly.
+
+gocargo theme **requires** following plugins:
+
+- [Meta Box](http://wordpress.org/plugins/meta-box/): plugin for creating meta boxes for posts, pages,... It is free and available on WordPress.org
+- [WPBakery Visual Composer](http://codecanyon.net/item/visual-composer-page-builder-for-wordpress/242431): premium plugin for page builder. It is the most popular plugin on Codecanyon.
+
+Gocargo theme **recommends** following plugins:
+
+- [Contact Form 7](https://wordpress.org/plugins/contact-form-7/): plugin for creating contact forms. It is free and available on WordPress.org 
+- Custom Sidebars:Create your own widgetized areas and choose on which pages they show up - "Easy to use. Even with complex themes. Made my work much easier." 
+- Envato WordPress Toolkit: WordPress toolkit for Envato Marketplace hosted items. Currently supports the following theme functionality: install, upgrade, & backups during upgrade.
+- OT Services: Services plugin allows you to create a page containing the information about your services.
+- OT Testimonial: Easily add social proofing to your website with Testimonials Widget. List or slide reviews via functions, shortcodes, or widgets.
+- OT Slider Text: This plugin is used to manager your slider text.
+- Revolution Slider: Premium plugin for creating sliders.
+- Newsletter: Add a real newsletter system to your blog. For free. With unlimited newsletters and subscribers.
+
+Gocargo is working perfectly with these plugins. It automatically adds more styles to them to make the design match the theme.
+
+To install these plugins:
+
+- Click **Begin installing plugins**
+- You'll be redirect to a page where all needed plugins are listed. Just click on **Install** below each plugin's name
+- After installing, if it's required to activate the plugin, just activate
+
+![install plugins](images/active-plugins.png)
+
+One Click Import demo content
+-----------------------------
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/f9-rWeJ5p50" frameborder="0" allowfullscreen></iframe>
+
+Import demo content by manual
+-----------------------------
+
+- Do you want  custom theme, Starting At Only $30 contact us now <a href ="#">**support@oceanthemes.net**</a>
+
+If you are new to WordPress and have problems with setting up the theme you might want to import the demo content file that comes with the theme. The following actions will import some dummy posts and pages from the live preview:
+
+- Go to `Tools > Import`
+- Select **WordPress** from the list
+- If you haven't installed the **WordPress import plugin**, a popup window will appears and ask you to install it. Just click **Install Now**. When the installation progress is completed, click **Activate Plugin & Run Importer**. If you have installed this plugin, skip to next step.
+- Click **Browse** and select `sample-content.xml` file from the download package
+- Click **Upload file and import**
+- When you are asked to import author, you can create new author or import to existing author. You also should check the checkbox **Download and import file attachments**.
+
+![import](images/import-data.png)
+
+![install plugin importer](images/install-plugin-importer.png)
+
+![select demo content](images/select-import-data.png)
+
+After completing all above steps, go to `Posts`, `Pages`, `Portfolios`, `Team` to see imported data.
+
+
+Import Theme Option by manual
+-------------------
+
+Following these steps to import theme option:
+
+- Go to `gocargo options > import/export`
+
+![import theme option](images/import-theme-option.png)
+
+- **[1]**: Click to **import from file**
+- **[2]**: Copy code in file 'theme-option.txt' and paste
+- **[3]**: Click to `import`
+
+
+Widget Importer & Exporter
+--------------------------
+
+Following these steps to import theme option:
+
+- Go to `plugins > installed plugins`
+- Activate plugins Widget Importer & Exporter by [dowload](https://wordpress.org/plugins/widget-importer-exporter/)
+- Go to `Tool > Widget Importer & Exporter`
+
+![importer exporter](images/widget-importer-exporter.png)
+
+- **1**: Click browse seclect file in foder `Hera-widgets.wie`
+- **2**: Click import
+
+
+Setup homepage and blog page
+-------------------------------------
+
+After install demo content, you'll see a page 8 Homepage pages, as you see on our demo. You can use one of theme as the homepage of the website. To set it as homepage, please go to `Settings \ Reading`, under **Front page displays**, please chose **A static page (select below)** and select a homepage version (eg: Homepage Slider Dark) for **Front page** and select **Blog** page for **Posts page**.
+
+![setup front page](images/setup-front-page.png)
+
+
+
+Setup Menu 
+--------------
+
+Although the theme is working now and it shows menu, but because we haven't created a menu for primary location, the theme will display all pages by default. But displaying pages instead of one page sections is a bad idea, because gocargo is one page theme.
+
+
+
+
+###Edit imported menu (recommend)
+
+When you import demo data, WordPress automatically create a menu for you, named `**Primary menu**.
+
+- Go to `Appearance > Menus`
+- Scroll to bottom of page and check **Primary Menu** for **_Theme location_**
+- Click **Save Menu**
+---------------
+
+- **Primary Menu**
+![edit menu](images/edit-menu.png)
+
+###Create New Menu
+
+Following these steps to create a menu:
+
+- Go to `Appearance > Menus`
+- Click the **create a new menu** link to create new menu.
+- For normal menu item: Select items from the left meta boxes and click **Add to Menu**
+- On the right, feel free to drag and drop menu items to organize them
+- When you're done moving menu items, check **Primary Menu** for **Theme locations** at the bottom of the page
+- Click **Save Menu**
+
+![edit menu](images/create-menu.png)
+
+**1**: Click to create a new menu.
+
+**2**: Enter menu name. Ex: Primary menu.
+
+**3**: Select page to create.
+
+**4**: Display menu.
+
+**5**: Tick menu. 
+
+------------------------------
+
+
+Create Your Home Page
+====================
+
+gocargo uses page template and meta box to create home page, so the first step is just creating a page using `Home Page` template (or you can edit exists page that has been imported via sample content file).
+
+![select-page-template](images/page-template.png)
+
+gocargo theme comes with Visual Composer plugin. This plugin allows you to forget about shortcodes and create most complex layouts within minutes without writing a single line of code!
+
+###Visual Composer Basics
+
+It has very simple and intuitive interface, but before getting started, you may find it useful to get accustomed with its documentation:
+
+[Visual Composer Documentation](https://wpbakery.atlassian.net/wiki/display/VC/Visual+Composer+Pagebuilder+for+WordPress?title=Visual_Composer)
+
+In gocargo theme, we also create some new Elements and add some new parameters to exists elements of Visual Composer. It will help you a lot to build your One Page easier. Following we will go through some popular elements of Visual Composer and all of new elements that gocargo theme brings to you.
+
+###Row
+
+This is the most popular you can't live without when using Visual Composer. In gocargo theme, we use it as a section of One Page. So, when you edit a row, there is new parameters you will see beside the defaults:
+
+**_General tab_**:
+
+- **Full height row?**: If checked row will be set to full height.
+- **Columns position**: Select columns position within row. Use when "full height row" = yes.
+- **Use video background?**: If checked, video will be used as row background.
+- **YouTube link**: Add YouTube link. Use when "use video background" = yes.
+- **Parallax**: Add parallax type background for row.
+- **Parallax speed**: Enter parallax speed ratio (Note: Default value is 1.5, min value is 1). Use when "parallax" # none.
+- **Row ID**: Enter row ID (Note: make sure it is unique and valid according to [w3c specification](http://www.w3schools.com/tags/att_global_id.asp)).
+- **Extra class name**: Style particular content element differently - add a class name and refer to it in custom CSS.
+- **Setup Full width For Row.**: Section full width or not, Default: not fullwidth.
+- **Put a pictures on the half Row?**: If checked row will be set to picture on the half row.
+- **Image**: Select image from media library. Use when "put a picture on the half row" = yes.
+- **Background color**: Add background color. Use when "put a picture on the half row" = yes.
+- **Columns image**: Select columns position within row. Use when "put a picture on the half row" = yes.
+- **Image position**: Select Image position within row. Use when "put a picture on the half row" = yes.
+
+**_Design options tab_**:
+
+- **Css**: It hepl you to change margin, border and padding.
+- **Overlay**: This option allows to place an additional layer above the row's background.
+- **Border**: Select a color for border.
+- **Background **: Select a color for background.
+- **set image**: Select a image conformity with content.
+- **Box controls**: select this option will you to simplify controls.
+
+###Column
+
+As Row, column is also the most popular element in Visual Composer, they are always be together. In gocargo theme, we add new tab called "**Animation**" when you edit a column. This tab contains options allow you to set up animation for that column when it appear on screen for the first time. This tab contains following options:
+
+**_General_**
+
+- **Extra class name**: Style particular content element differently - add a class name and refer to it in custom CSS.
+- **Animate Column**: Select Animate , Default: None
+- **Animate delay number.**: Example : 0.2, 0.6, 1, etc.
+- **Animate duration number.**: Example : 0.2, 0.6, 1, etc.
+
+**_Design options_**:
+
+- **Css**: It hepl you to change margin, border and padding.
+- **Overlay**: This option allows to place an additional layer above the row's background.
+- **Border**: Select a color for border.
+- **Background **: Select a color for background.
+- **set image**: Select a image conformity with content.
+- **Box controls**: select this option will you to simplify controls.
+
+**_Width and Responsiveness_**:
+
+- **Width**: Select number column.
+- **Responsiveness **: Adjust column for different screen sizes. Control width, offset and visibility settings.
+
+###Heading
+
+This element is used to create the title area for each heading. It is used in almost heading in our demo. It contains following parameters:
+
+- **Text**: The title content.
+- **Text Align**: Section Overlay.
+
+###Heading 2
+
+ It contains following parameters:
+
+- **Title**: Add title.
+- **Content**: Enter the content.
+- **Text Align**: Section Overlay.
+
+###Commitment
+
+ It contains following parameters:
+
+- **Title**: Add title.
+- **Description**: Content right.
+- **background image**: Upload your background image.
+
+###Home Parallax
+
+ It contains following parameters:
+
+- **background image**: Upload your background image.
+- **Title**: Add title.
+- **SubTitle**: Add your subtitle.
+- **Add Description**: Content right.
+- **Link Button**: Add your link to button.
+
+###Call to Action
+
+ It contains following parameters:
+
+- **Title**: Add your title.
+- **SubTitle**: Add your subtitle.
+- **Button Link**: Add link to Button.
+
+###Button
+
+ It contains following parameters:
+
+- **Button Link**: Add link to Button.
+
+###Awards
+
+ It contains following parameters:
+
+- **Gallery Image**: Upload Gallery Image and add title, description for image
+
+###Image Slider
+
+ It contains following parameters:
+
+- **Gallery Image**: Upload Gallery Image and add title, description for image.
+
+###History Timeline
+
+ It contains following parameters:
+
+- **Number Per Page**: Add Number -1 for show all post.
+
+###Career Post
+
+ It contains following parameters:
+
+- **Number Per Page**: Add Number -1 for show all post.
+
+###Founder & Directors
+
+ It contains following parameters:
+
+- **Number Per Page**: Add Number -1 for show all post.
+
+###Career Post 2
+
+ It contains following parameters:
+
+- **Number Per Page**: Add Number -1 for show all post.
+
+###Testimonial slider
+
+ This element is used to present a carousel of testimonials. It contains following options:
+
+- **Visible Testimonial**: Select Visible testimonial.
+- **Number Testimonial**: Number testimonial slider. Show all: -1.
+
+###Testimonial slider 2
+
+ This element is used to present a carousel of testimonials. It contains following options:
+
+- **Number Testimonial**: Number testimonial slider. Show all: -1.
+
+
+###Testimonial Grid
+
+ It contains following options:
+
+- **Number show testimonial per page.**: Add Number -1 for show all post.
+- **Select Columns.**: Select number columns for show.
+
+###Gallery
+
+ It contains following options:
+
+- **Add Gallery**: Add Gallery Image.
+- **Select Columns.**: Select number columns for show.
+
+###About Us 
+
+ It contains following options:
+
+- **Add icon class**: Ex: icon-wallet, [view more icon class](http://vegatheme.com/html/archi-icons-etlinefont/) 
+- **Title**: Add title.
+- **Description**: Enter the content.
+- **link Title**: Add Link to Title.
+
+###About Us 2
+
+ It contains following options:
+
+- **Photo**: Upload image.
+- **Title**: Enter the title.
+- **Description**: Enter the content.
+- **link Title**: Add Link to button.
+
+###About Us
+
+ It contains following options:
+
+- **Photo**: Upload image.
+- **Title**: Enter the title.
+- **Description**: Enter the content.
+- **link Title**: Add Link to button.
+
+###Service Grid
+
+ It contains following options:
+
+- **Title**: Add title.
+- **Number show services per page.**: Add Number -1 for show all post.
+- **Select Columns.**: Select number columns for show.
+
+###Service Grid 2
+
+ It contains following options:
+
+- **Title**: Enter the title.
+- **Number show services per page.**: Add Number -1 for show all post.
+- **Select Columns.**: Select number columns for show.
+
+###Service Grid 3
+
+ It contains following options:
+
+- **Title**: Add title.
+- **Description**: Add content.
+- **Number show services per page.**: Add Number -1 for show all post.
+- **Select Columns.**: Select number columns for show.
+
+###Other Service
+
+ It contains following options:
+
+- **Photo**: Photo Other Service.
+- **Title**: Add title.
+- **Content**: Add Content.
+- **Delay animation number**: Add Delay animation number.
+- **Select Columns.**: Select number columns for show.
+- **Animate Column**: Select Animate , Default: None.
+
+###Our Fact
+
+ It contains following options:
+
+- **Title Fact**: Title display in Our Facts box.
+- **Number Fact**: Number display in Our Facts box.
+
+###Our Team 
+
+ It contains following options:
+
+- **Photo Member**: Avarta of member, Recomended Size: 420 x 420.
+- **Member Name**: Member's Name.
+- **Member Job**: Member's job.
+- **Member Description**: Add content.
+- **Icon**: Select icon from library.
+- **Url 1**: Add link.
+- **Icon**: Select icon from library.
+- **Url 2**: Add link.
+- **Icon**: Select icon from library.
+- **Url 3**: Add link.
+- **Icon**: Select icon from library.
+- **Url 4**: Add link.
+- **Icon**: Select icon from library.
+- **Url 5**: Add link.
+- **Icon**: Select icon from library.
+- **Url 6**: Add link.
+
+###Our Team
+
+ It contains following options:
+
+- **Photo Member**: Avarta of member, Recomended Size: 420 x 420.
+- **Member Name**: Member's Name.
+- **Member Job**: Member's job.
+- **Member Description**: Add content
+- **Icon 1**: EX: twitter, facebook, skype...Find [here](http://fontawesome.io/icons/)
+- **Url 1**: Add link.
+- **Icon 2**: EX: twitter, facebook, skype...Find [here](http://fontawesome.io/icons/)
+- **Url 2**: Add link.
+- **Icon 3**: EX: twitter, facebook, skype...Find [here](http://fontawesome.io/icons/)
+- **Url 3**: Add link.
+- **Icon 4**: EX: twitter, facebook, skype...Find [here](http://fontawesome.io/icons/)
+- **Url 4**: Add link.
+- **Icon 5**: EX: twitter, facebook, skype...Find [here](http://fontawesome.io/icons/)
+- **Url 5**: Add link.
+- **Icon 6**: EX: twitter, facebook, skype...Find [here](http://fontawesome.io/icons/)
+- **Url 6**: Add link.
+
+###Latest Blog
+
+ It contains following options:
+
+- **Number Show**: Enter the number show. Show all = -1.
+- **Number Excerpt**: Enter the number.
+- **Link Button**: Add link to button.
+
+###Contact Info
+
+ It contains following options:
+
+- **Title**: Add title.
+- **Description**: Add content.
+- **Link Button**: Add link to button.
+
+###FAQ's
+
+ It contains following options:
+
+- **Title**: Add title.
+- **Description**: Add content.
+
+###Single Accordion
+
+ It contains following options:
+
+- **Title**: Add title.
+- **Description**: Add content.
+
+###Google Maps
+
+ It contains following parameters:
+
+- **Height Map**: Please enter number height Map, 300, 350, 380, ..etc. Default: 420.
+- **Latitude**: Please enter [Latitude](http://www.latlong.net/) gocargo map
+- **Longitude**: Please enter [Longitude](http://www.latlong.net/) gocargo map 
+- **Zoom map**: Please enter zoom map. defaul 12.
+- **Icon Map marker**: Icon Map marker, 47 x 68
+
+------------------------------
+
+
+Theme Options
+=============
+
+gocargo theme comes with unique, creative and easy-to-use Theme Options page. You can change all theme options in one place!
+
+###Setting preload, animation, etc...
+![favicon](images/miscellaneous.png)
+
+###Setting Logo and Favicon
+![favicon](images/logo-favicon.png)
+
+###Setting Header
+![header](images/header.png)
+
+###Setting typography
+![typography](images/typography.png)
+
+###Setting blog
+![blog](images/blog.png)
+
+###Setting Social link
+![social](images/social.png)
+
+###Setting footer
+![footer](images/footer.png)
+
+###Setting styling : unlimited color, custom css
+![styling](images/styling.png)
+
+All options have full description so you can know what you are doing. Just click and save!
+
+
+------------------------------
+
+
+Post Format
+===========
+
+[Post Formats](http://codex.wordpress.org/Post_Formats) is theme feature which is a piece of meta information that can be used by a theme to customize its presentation of a post.
+
+In short, with a theme that supports Post Formats, a blogger can change how each post looks by choosing a Post Format from a radio-button list.
+
+gocargo theme supports the following post formats:
+
+- `gallery` - A gallery of images, which will be displayed in a responsive image slider, powered by Flexslider.
+- `image` - A single image, which will be shown above post title.
+- `video` - A single video, which can be any video from Youtube, Video or other video websites. Support URL or embed code. The video will be displayed above post title.
+- `audio` - An audio file, which can be any video from Youtube, Video or other video websites. Support URL or embed code. The video will be displayed using a powerful HTML5 audio player provided by Wordpress as default player.
+- `quote` - A question.
+
+Using post format in gocargo lets you differentiate post from each other and make the blog page / single page looks more beautiful.
+
+[Go to blog page](http://demo.vegatheme.com/gocargo/news/) to see how post formats look.
+
+
+
+
+When you edit a post, select a format you want to apply to that post on the **Format** meta box on the right:
+
+![formats](images/post-format-box.png)
+
+When you choose a format, a corresponding meta box will appear **below** the content editor, here's the list of them:
+
+![formats](images/post-formats.png)
+
+All you need to do is just enter **all** information in the fields in these meta boxes. This information will be used to decorate the post. For example: gallery post format will uses uploaded images to show a slider above post title, a video post will display a video player above post title, etc.
+
+
+------------------------------
+
+
+
+Create And Manage Service
+===========================
+
+
+Add New Service
+------------
+
+Now you can start adding your Service. Go to Service > Add Service. Basically there is not big difference to a regular blog post, all elements like featured image and the WordPress Editor are in the same place.
+
+![Service Add New](images/add-new-service.png)
+
+
+**[1]** Enter service name here.
+
+**[2]** Add content about your service.
+
+**[3]** Add service detail.
+
+**[4]** Add Excerpt
+
+**[5]** Upload service featured image.
+
+**[6]** Click `publish`
+
+
+----------------------------
+
+
+Create And Manage Testimonial
+===========================
+
+
+Add New Testimonial
+------------
+
+Now you can start adding your Testimonial. Go to Testimonial > Add Testimonial. Basically there is not big difference to a regular blog post, all elements like featured image and the WordPress Editor are in the same place.
+
+![Testimonial Add New](images/testimonial-add-new.png)
+
+
+**[1]** Enter service name here.
+
+**[2]** Add content about your service.
+
+**[3]** Click `publish`
+
+
+----------------------------
+
+
+Translation
+=========
+
+###Tell WordPress which language file to use.
+
+If you don’t use WordPress in your native language so far, you have to tell WordPress which language to use to activate the theme translation.
+
+You can do this by editing the wp-config.php file (the file is located in the main directory of your WordPress files) and defining the WPLANG constant. You have to set your language code there, for example fr_FR for French translation.
+
+ust add the line below to your wp-config.php or change it if it already exists:
+
+`define ('WPLANG', 'fr_FR');`
+
+
+###First Method: Using Codestyling Plugin
+
+The easiest way to translate your theme locally is by using the [Codestyling Localization](https://wordpress.org/plugins/codestyling-localization/) plugin. After you have installed and activated the plugin, simply go to `Tools > Localization` (shown in your language) and translate the theme from your WordPress backend following the [plugin instructions](http://www.code-styling.de/english/development/wordpress-plugin-codestyling-localization-en)
+
+###Second Mothod: Using Poedit
+
+Poedit is a common program which you can use to translate the theme. It’s available for free on [poedit.net](http://www.poedit.net/).
+
+After you have installed Poedit, you can open it and select `File > New Catalog from POT file`. Then select the .pot file from the theme you wish to translate which you can find in the `/languages/` folder of theme.
+
+Then go through every line of text and translate it to your native language. Afterwards you can save the catalog with your language code (for example `en_US.po`). Normally Poedit automatically creates the .mo file and saves it, too.
+
+The last step you have to do is to upload your created language files to the language folder of your theme using FTP.
+
+
+------------------------------
+
+
+Child Theme
+===========
+
+Fastlat is fully child theme compatible. We have attached a basic child theme to the download package which contains the minimum of required files. If you are planing any code customisations we highly recommend to do this inside the child theme! Learn more about child themes [here](http://codex.wordpress.org/Child_Themes)
+
+
+
+Need Helps
+=========
+
+If you need help, please do not hesitate to contact us! To grant best support we set up a support forum at [https://oceanthemes.ticksy.com](https://oceanthemes.ticksy.com/). Channeling all requests at one place keeps and makes it simple, easier and even more effective for every customers to get quick help. All issues, requests and questions can be discussed and answered at one place. Please note, you will only get access to our forums with a valid purchase key!
+
+</xmp>
+
+<script src="js/strapdown.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/toc.min.js"></script>
+<script>
+	jQuery(document).ready(function($) {
+		$('body').prepend('<div id="toc"></div>');
+		$('#toc').toc({
+			'selectors': 'h1,h2,h3,h4,h5,h6',
+			'container': '#content'
+		});
+	});
+</script>
+</body>
+</html>
